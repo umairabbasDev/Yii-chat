@@ -6,22 +6,13 @@ import Box from "@mui/material/Box";
 import Stack from "@mui/material/Stack";
 import Link from "@mui/material/Link";
 import config from "./config/config";
-
-function Copyright() {
-  return (
-    <Typography variant="body2" color="text.secondary" align="center">
-      {"Copyright © "}
-      <Link color="inherit" href="/">
-        Yii chat
-      </Link>{" "}
-      {new Date().getFullYear()}.
-    </Typography>
-  );
-}
+import { useTheme } from "@emotion/react";
 
 export default function App() {
+  const theme = useTheme();
+
   return (
-    <Container maxWidth="sm">
+    <Container maxWidth="sm" className="">
       <Box sx={{ my: 4 }}>
         <Typography variant="h4" component="h1" gutterBottom>
           Yii-Chat made with
@@ -36,5 +27,17 @@ export default function App() {
         <Copyright />
       </Box>
     </Container>
+  );
+}
+
+function Copyright() {
+  return (
+    <Typography variant="body2" color="text.secondary" align="center">
+      {"Copyright © "}
+      <Link color="inherit" href="/">
+        Yii chat
+      </Link>{" "}
+      {new Date().getFullYear()}.
+    </Typography>
   );
 }

@@ -1,9 +1,9 @@
-import reactLogo from "../assets/react.svg";
-import viteLogo from "../assets/vite.svg";
-import MUILogo from "../assets/material_ui.svg";
-import nodeLogo from "../assets/nodejs.svg";
-import TSLogo from "../assets/typescript.svg";
-import firebaseLogo from "../assets/firebase.svg";
+import reactLogo from "../assets/img/react.svg";
+import viteLogo from "../assets/img/vite.svg";
+import MUILogo from "../assets/img/material_ui.svg";
+import nodeLogo from "../assets/img/nodejs.svg";
+import TSLogo from "../assets/img/typescript.svg";
+import firebaseLogo from "../assets/img/firebase.svg";
 
 const icons = {
   build: [
