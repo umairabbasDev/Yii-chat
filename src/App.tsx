@@ -6,7 +6,7 @@ export default function App() {
   const theme = useTheme();
 
   return (
-    <Container maxWidth="sm" className="">
+    <Container  maxWidth="sm" className="">
       <Layout />
     </Container>
   );

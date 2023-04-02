@@ -3,8 +3,8 @@ import About from "../components/About";
 
 const Footer = () => {
   return (
-    <div>
-      Footer
+    <div >
+      {/* Footer */}
       <About />
     </div>
   );
